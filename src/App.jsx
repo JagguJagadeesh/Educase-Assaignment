@@ -33,8 +33,8 @@ function App() {
 
 
   return (
-    <div className="h-screen flex items-center justify-center">
-      <div className="w-[300px] h-[540px] rounded-lg border border-gray-400 shadow-lg shadow-black">
+    <div className="sm:h-screen sm:flex items-center justify-center">
+      <div className="w-[410px] h-[915px] sm:w-[300px] sm:h-[540px] rounded-lg border border-gray-400 shadow-lg shadow-black">
        {loading ? <Loader /> : renderSlide()}
       </div>
     </div>
